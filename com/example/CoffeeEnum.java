@@ -1,3 +1,8 @@
+package com.example;
+
+// to run the example, do following
+// javac com/example/CoffeeEnum.java 
+// java com.example.CoffeeEnum
 public enum CoffeeEnum {
 	SMALL(10, "A"), NORMAL(20), HUGE(50) {
 		// @Override is optional here
