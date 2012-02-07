@@ -16,10 +16,17 @@ class JavaOutter {
 	}
 
 	void printSomething() {
+		String localString = "local string";
+		final String localFinalString = "local final string";
+
 		DummyInterface anon = new DummyInterface() {
 			@Override
 			public void printInfo() {
 				System.out.println(theString);
+				// local variable localString is accessed from within inner class; needs
+				// to be declared final
+				//System.out.println(localString);
+				System.out.println(localFinalString);
 			}
 		};
 
