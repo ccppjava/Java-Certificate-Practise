@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.p1.P1Class1;
 import com.example.p1.P1Class2;
+import com.example.p1.P1Class3;
 import com.example.p2.P2Class1;
 import com.example.p2.P2Class2;
 
@@ -15,5 +16,7 @@ public class P1P2Test {
 		P1Class2 p1Class2 = new P1Class2();
 		p1Class2.defaultMethod();
 
+		P1Class3 p1Class3 = new P1Class3();
+		p1Class3.testAccess();
 	}
 }

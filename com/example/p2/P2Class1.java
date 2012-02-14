@@ -7,7 +7,7 @@ public class P2Class1 extends P1Class1 {
 	// public/protected is allowed here
 	// default/private is not allowed
 	@Override
-	public void protectedMethod(){
+	protected void protectedMethod(){
 		super.protectedMethod();
 		System.out.println("P2Class1.protectedMethod");
 
